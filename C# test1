@@ -1,0 +1,27 @@
+using System;
+
+namespace HelloWorld {
+
+    class MainClass {
+
+        static void Main (string[] args) {
+
+          Console.WriteLine("---Programa de Vendas---");
+          Console.Write("Digite seu nome:");
+          string nome = Console.ReadLine();
+          Console.Write("Digite sua idade: ");
+          int idade = int.Parse(Console.ReadLine());
+          
+          Console.WriteLine("Resultado:");
+          Console.WriteLine("Nome: " + nome);
+          Console.WriteLine("Idade: " + idade);
+          Console.ReadLine();
+    
+        
+        
+        
+        
+        
+        }
+    }
+}
