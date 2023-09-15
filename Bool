@@ -1,0 +1,20 @@
+using System;
+
+namespace HelloWorld {
+
+  class MainClass {
+
+    public static void Main (string[] args) {
+
+      int n3 = 3;
+      int n6 = 6;
+
+      bool n6Maiorn3 = n6 > n3;
+      bool n3Menorn6 = n3 < n6;
+
+        Console.WriteLine (n6Maiorn3);
+        Console.WriteLine(n3Menorn6);
+        Console.ReadKey();
+    }
+  }
+}
